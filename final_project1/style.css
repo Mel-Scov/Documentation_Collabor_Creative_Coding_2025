@@ -1,0 +1,43 @@
+body{
+    background-color: greenyellow;
+    margin: 5%;
+}
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    color: red;
+    text-align: center;
+}
+.container{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-between;
+align-items: flex-start;
+}
+.card{
+    width: 300px; /* in percent in relation to web page size*/
+    height: auto;
+    background-color: rgb(255,0,255);
+    /* font*/
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(100,100,100);
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    align-items: center;
+}
+.card img{
+    width: 80%; /* to define size in relation to the div element*/
+    height: auto;
+}
+.card p{
+    padding: 10px;
+}
+.big{
+    width: 600px;
+    background-color: cyan;
+}
